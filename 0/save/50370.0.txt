@@ -1,0 +1,43 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV 18 ACC
+LOOP: SUB 1
+MOV 0 DOWN
+MOV ACC DOWN
+SAV
+MOV 30 ACC
+LINE:
+SUB 1
+MOV 3 DOWN
+JGZ LINE
+SWP
+MOV -1 DOWN
+JMP LOOP
+
+@10
