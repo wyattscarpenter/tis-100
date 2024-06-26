@@ -1,0 +1,59 @@
+@0
+1: SAV #THE Q
+MOV RIGHT ACC
+JEZ STO
+JGZ SHO
+
+
+
+
+STO:
+MOV RIGHT ACC
+JMP 1
+
+SHO: SWP
+MOV ACC RIGHT
+JMP 1
+
+@1
+S: SAV
+MOV UP ACC
+JEZ 0
+SUB 2
+JLZ 1
+JEZ 2
+SUB 1
+JEZ 3
+JGZ 4
+0: MOV RIGHT ACC
+JMP S
+1:
+2:
+3:
+4: MOV ACC DOWN
+
+@2
+MOV UP LEFT
+
+@3
+
+
+@4
+##HMM
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+
+
+@10

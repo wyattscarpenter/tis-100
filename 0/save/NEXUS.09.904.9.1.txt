@@ -1,0 +1,34 @@
+@0
+MOV UP ACC
+JEZ L
+MOV ACC LEFT
+L: MOV LEFT ACC
+ JLZ END
+
+
+
+
+
+
+
+
+
+END:MOV RIGHT DOWN
+
+@1
+MOV -1 UP
+END: JMP END
+
+@2
+MOV UP DOWN
+
+@3
+
+
+@4
+
+
+@5
+MOV UP DOWN
+
+@6
