@@ -1,0 +1,49 @@
+@0
+
+
+@1
+MOV UP ACC
+ADD ACC
+ADD 1
+MOV ACC RIGHT
+
+@2
+0: JRO LEFT
+1: MOV UP ACC #0
+2: JMP 0
+3: MOV UP RIGHT #1
+4: JMP 0
+5: SAV #2
+6: MOV RIGHT ACC
+7: SWP
+8: MOV ACC RIGHT
+9: SWP
+A:
+B:
+C:
+D:
+E:
+
+@3
+#Q STORAGE
+MOV LEFT RIGHT
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+
+
+@10
